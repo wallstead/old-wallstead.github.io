@@ -1,15 +1,15 @@
 body {
     background-color: white;
     color: black;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 
     #content {
         max-width: 700px;
         margin: 0 auto;
         padding: 0 10px;
-        
+
         h1 {
-            font-family: brandon-grotesque, Helvetica, sans-serif;
+            font-family: "brandon-grotesque", Helvetica, sans-serif;
             font-size: 34px;
             font-style: normal;
             font-weight: 900;
@@ -20,7 +20,7 @@ body {
 
         p, li {
             margin: 0;
-            font-family: OpenSansRegular, Helvetica, sans-serif;
+            font-family: "Open Sans", Helvetica, sans-serif;
             font-size: 18px;
             font-style: normal;
             font-weight: normal;
