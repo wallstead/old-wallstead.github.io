@@ -6,7 +6,7 @@ body {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 10px; }
-    body #content h1 {
+    body #content h1, body #content h2 {
       font-family: "brandon-grotesque", Helvetica, sans-serif;
       font-size: 34px;
       font-style: normal;
@@ -14,7 +14,9 @@ body {
       letter-spacing: 1.5px;
       line-height: normal;
       color: #252C37; }
-    body #content p, body #content li {
+    body #content h2 {
+      font-size: 26px; }
+    body #content p, body #content li, body #content span {
       margin: 0;
       font-family: "Open Sans", Helvetica, sans-serif;
       font-size: 18px;
