@@ -1,5 +1,24 @@
 body {
-  background-color: black;
-  color: white; }
+  background-color: white;
+  color: black;
+  font-family: sans-serif; }
+  body h1 {
+    font-family: brandon-grotesque, Helvetica, sans-serif;
+    font-size: 125px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #252C37; }
+  body p, body li {
+    font-family: OpenSansRegular, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-transform: none;
+    color: #44555F; }
 
 /*# sourceMappingURL=main.css.map */
