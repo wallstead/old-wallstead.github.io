@@ -31,6 +31,11 @@ body {
       line-height: 36px;
       text-transform: none;
       color: #44555F; }
+    body #content .contact-me {
+      display: flex;
+      margin-bottom: 15px; }
+      body #content .contact-me a {
+        color: black; }
     body #content .sites {
       width: 100%;
       display: flex;

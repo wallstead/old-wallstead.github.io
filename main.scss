@@ -39,6 +39,15 @@ body {
             color: #44555F;
         }
 
+        .contact-me {
+            display: flex;
+            margin-bottom: 15px;
+
+            a {
+                color: black;
+            }
+        }
+
         .sites {
             width: 100%;
             display: flex;
