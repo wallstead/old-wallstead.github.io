@@ -55,12 +55,15 @@ body {
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin: 10px 0; }
+          padding: 10px 0;
+          background-color: whitesmoke; }
           body #content .sites .site .site-info h3 {
+            text-align: center;
             font-size: 21px;
             letter-spacing: 1px;
-            margin: 0; }
+            margin: 0 5px 0; }
           body #content .sites .site .site-info h4 {
+            text-align: center;
             font-size: 13px;
             font-weight: 500;
             letter-spacing: 1px;
