@@ -47,7 +47,8 @@ body {
 
             .site {
                 $border-width: 1px;
-                border: $border-width solid #d8d7da;
+                $border-color: #d8d7da;
+                border: $border-width solid $border-color;
                 border-radius: 5px;
                 overflow: hidden;
                 width: calc(50% - (#{$grid-gap}/2) - (#{$border-width}*2));
@@ -64,12 +65,14 @@ body {
                     height: 200px;
                     background-position: top center;
                     background-size: cover;
+                    border-bottom: $border-width solid $border-color;
                 }
 
                 .site-info {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    margin: 10px 0;
 
                     h3 {
                         font-size: 21px;

@@ -49,11 +49,13 @@ body {
           width: 100%;
           height: 200px;
           background-position: top center;
-          background-size: cover; }
+          background-size: cover;
+          border-bottom: 1px solid #d8d7da; }
         body #content .sites .site .site-info {
           display: flex;
           flex-direction: column;
-          align-items: center; }
+          align-items: center;
+          margin: 10px 0; }
           body #content .sites .site .site-info h3 {
             font-size: 21px;
             letter-spacing: 1px;
