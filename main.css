@@ -36,7 +36,8 @@ body {
       margin-bottom: 15px; }
       body #content .contact-me a {
         color: black;
-        text-decoration: none; }
+        text-decoration: none;
+        margin-right: 16px; }
         body #content .contact-me a i {
           margin-right: 10px;
           font-size: 2em; }
