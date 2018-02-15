@@ -6,7 +6,7 @@ body {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 10px; }
-    body #content h1, body #content h2 {
+    body #content h1, body #content h2, body #content h3 {
       font-family: "brandon-grotesque", Helvetica, sans-serif;
       font-size: 34px;
       font-style: normal;
@@ -31,11 +31,20 @@ body {
       display: flex;
       flex-wrap: wrap; }
       body #content .sites .site {
-        width: 25%; }
+        width: 25%;
+        display: flex;
+        flex-direction: column; }
         body #content .sites .site .site-preview {
           width: 100%;
           height: 200px;
           background-position: center;
           background-size: cover; }
+        body #content .sites .site .site-info {
+          display: flex;
+          justify-content: center; }
+          body #content .sites .site .site-info h3 {
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
