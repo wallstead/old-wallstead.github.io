@@ -45,6 +45,10 @@ body {
             flex-wrap: wrap;
             $grid-gap: 10px;
 
+            a {
+                text-decoration: none;
+            }
+
             .site {
                 $border-width: 1px;
                 $border-color: #d8d7da;
@@ -80,6 +84,7 @@ body {
                         font-size: 21px;
                         letter-spacing: 1px;
                         margin: 0 5px 0;
+                        color: #252C37;
                     }
 
                     h4 {
@@ -88,6 +93,7 @@ body {
                         font-weight: 500;
                         letter-spacing: 1px;
                         margin: 0;
+                        color: #252C37;
                     }
                 }
             }

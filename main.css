@@ -35,6 +35,8 @@ body {
       width: 100%;
       display: flex;
       flex-wrap: wrap; }
+      body #content .sites a {
+        text-decoration: none; }
       body #content .sites .site {
         border: 1px solid #d8d7da;
         border-radius: 5px;
@@ -61,12 +63,14 @@ body {
             text-align: center;
             font-size: 21px;
             letter-spacing: 1px;
-            margin: 0 5px 0; }
+            margin: 0 5px 0;
+            color: #252C37; }
           body #content .sites .site .site-info h4 {
             text-align: center;
             font-size: 13px;
             font-weight: 500;
             letter-spacing: 1px;
-            margin: 0; }
+            margin: 0;
+            color: #252C37; }
 
 /*# sourceMappingURL=main.css.map */
