@@ -6,7 +6,10 @@ body {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 10px; }
-    body #content h1, body #content h2, body #content h3, body #content h4 {
+    body #content h1,
+    body #content h2,
+    body #content h3,
+    body #content h4 {
       font-family: "brandon-grotesque", Helvetica, sans-serif;
       font-size: 34px;
       font-style: normal;
@@ -16,7 +19,9 @@ body {
       color: #252C37; }
     body #content h2 {
       font-size: 26px; }
-    body #content p, body #content li, body #content span {
+    body #content li,
+    body #content p,
+    body #content span {
       margin: 0;
       font-family: "Open Sans", Helvetica, sans-serif;
       font-size: 18px;
@@ -31,9 +36,12 @@ body {
       display: flex;
       flex-wrap: wrap; }
       body #content .sites .site {
-        width: 50%;
+        width: calc(50% - (10px/2));
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        margin-right: 10px; }
+        body #content .sites .site:nth-of-type(2n) {
+          margin-right: 0; }
         body #content .sites .site .site-preview {
           width: 100%;
           height: 200px;
@@ -44,11 +52,12 @@ body {
           flex-direction: column;
           align-items: center; }
           body #content .sites .site .site-info h3 {
-            font-size: 12px;
+            font-size: 21px;
             letter-spacing: 1px;
             margin: 0; }
           body #content .sites .site .site-info h4 {
-            font-size: 10px;
+            font-size: 13px;
+            font-weight: 500;
             letter-spacing: 1px;
             margin: 0; }
 
