@@ -35,8 +35,6 @@ body {
       width: 100%;
       display: flex;
       flex-wrap: wrap; }
-      body #content .sites a {
-        text-decoration: none; }
       body #content .sites .site {
         border: 1px solid #d8d7da;
         border-radius: 5px;
@@ -47,6 +45,8 @@ body {
         margin: 0 10px 10px 0; }
         body #content .sites .site:nth-of-type(2n) {
           margin-right: 0; }
+        body #content .sites .site a {
+          text-decoration: none; }
         body #content .sites .site .site-preview {
           width: 100%;
           height: 200px;

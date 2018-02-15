@@ -45,9 +45,7 @@ body {
             flex-wrap: wrap;
             $grid-gap: 10px;
 
-            a {
-                text-decoration: none;
-            }
+
 
             .site {
                 $border-width: 1px;
@@ -62,6 +60,10 @@ body {
 
                 &:nth-of-type(2n) {
                     margin-right: 0;
+                }
+
+                a {
+                    text-decoration: none;
                 }
 
                 .site-preview {
