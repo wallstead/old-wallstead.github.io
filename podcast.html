@@ -26,11 +26,14 @@
                 $.each(json, function (key, entry) {
                     dropdown.append($('<option></option>').attr('value', key).text(entry.name));
                 })
+
+                $('#podcast-dropdown').on('change', function() { // selected a new pod
+                    alert( json[this.value] );
+                })
+
             });
 
-            $('#podcast-dropdown').on('change', function() { // selected a new pod
-                alert( this.value );
-            })
+
         });
     </script>
 </body>
