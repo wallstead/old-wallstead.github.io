@@ -12,6 +12,8 @@
     <p>For:<p>
     <select id="podcast-dropdown" name="podcast">
     </select>
+    <div id="recommendations">
+    </div>
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -28,7 +30,10 @@
                 })
 
                 $('#podcast-dropdown').on('change', function() { // selected a new pod
-                    alert( json[this.value].feed_url );
+                    let recommendations = $('#recommendations');
+                    $.each(json[this.value].most_similar, function (key, value) {
+                        recommendations.append($('<p></p>').text(value));
+                    })
                 })
 
             });
