@@ -33,7 +33,7 @@
                     let recommendations = $('#recommendations');
                     recommendations.empty();
                     $.each(json[this.value].most_similar, function (key, value) {
-                        recommendations.append($('<p></p>').text(value));
+                        recommendations.append($('<p></p>').text('#'+key+' '+value));
                     })
                 })
             });
