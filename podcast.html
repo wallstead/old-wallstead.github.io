@@ -23,7 +23,6 @@
             dropdown.prop('selectedIndex', 0);
 
             $.getJSON("stuff.json", function(json) {
-                console.log(json); // this will show the info it in firebug console
 
                 $.each(json, function (key, entry) {
                     dropdown.append($('<option></option>').attr('value', key).text(entry.name));
